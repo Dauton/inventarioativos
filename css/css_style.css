@@ -344,6 +344,9 @@ input:focus, select:focus {
     display: none;
     margin-top: 10px;
 }
+.excel-box h3 {
+    color: black;
+}
 .excel-box div label, .excel-box div select {
     margin-left: auto;
     margin-right: auto;

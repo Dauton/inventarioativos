@@ -161,8 +161,8 @@
                 $("#btn-criacao").css({ background: "white", color: "black", transition: ".4s all" });
                 $("#btn-criacao img").css({ filter: "invert(100%)", transition: ".4s all" });
 
-                $("#form-buscar").fadeToggle(0);
-                $("#form-criacao").fadeToggle(0);
+                $("#form-buscar").show(0);
+                $("#form-criacao").hide(0);
             });
             $("#btn-criacao").click(function () {
                 $(this).css({ background: "#004481", color: "white", transition: ".4s all" });
@@ -171,8 +171,8 @@
                 $("#btn-buscar").css({ background: "white", color: "black", transition: ".4s all" });
                 $("#btn-buscar img").css({ filter: "invert(0%)", transition: ".4s all" });
 
-                $("#form-criacao").fadeToggle(0);
-                $("#form-buscar").fadeToggle(0);
+                $("#form-criacao").show(0);
+                $("#form-buscar").hide(0);
             });
 
         </script>
