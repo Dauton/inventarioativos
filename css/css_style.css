@@ -290,7 +290,7 @@ input:focus, select:focus {
     border-top: 7px solid #004481;
     text-align: center;
     position: fixed;
-    top: 13%;
+    top: 10%;
     z-index: 3;
 }
 .back-excel, .excel-box {
@@ -310,8 +310,8 @@ input:focus, select:focus {
     text-align: justify;
 }
 .excel-box img {
-    width: 60px;
-    margin: 10px 0 0 0;
+    width: 45px;
+    margin: 20px 0 0 0;
 }
 .excel-box button {
     width: 90%;
