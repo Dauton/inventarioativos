@@ -265,6 +265,7 @@ input:focus, select:focus {
 #ext-excel {
     bottom: 120px;
     padding: 10px;
+    z-index: 2;
 }
 
 #go-top img, #btn-help img, #ext-excel img {
