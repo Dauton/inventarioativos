@@ -156,6 +156,13 @@
             </footer>
         </section>
 
+        <div class="informative-box">
+            <img id="close-informative" src="img/close-icon.png">
+            <h3>Informação</h3>
+            <img src="img/informacao.png">
+            <p>Caso esteja procurando algum ativo para exlcuir ou modificar alguma informação, primeiramente busque com as informações necessárias.</p>
+        </div>
+
         <script src="jquery.js"></script>
         <script>
             $("#btn-menu").click(function () {
@@ -171,6 +178,9 @@
                 $("#menu-consulta").click(function () {
                     $("#submenu-consulta").slideToggle(200);
                 })
+            });
+            $("#close-informative").click(function() {
+                $(".informative-box").fadeToggle(100);
             });
         </script>
     </main>

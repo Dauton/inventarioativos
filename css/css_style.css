@@ -281,7 +281,7 @@ input:focus, select:focus {
     z-index: 2;
 }
 
-.help-box, .excel-box {
+.help-box, .excel-box, .informative-box {
     width: 320px;
     padding: 20px;
     background: white;  
@@ -292,6 +292,25 @@ input:focus, select:focus {
     position: fixed;
     top: 10%;
     z-index: 3;
+}
+.informative-box {
+    width: 230px;
+    position: fixed;
+    top: auto;
+    bottom:90px;
+    right: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.informative-box img {
+    width: 30px !important;
+    margin: 10px 0;
+    margin-bottom: 0;
+}
+.informative-box p {
+    font-size: 12px !important;
+    margin-top: 10px;
 }
 .back-excel, .excel-box {
     display: none;
@@ -363,6 +382,14 @@ input:focus, select:focus {
     border-radius: 0 0 5px 5px;
 }
 
+#close-informative {
+    width: 17px !important;
+    position: absolute;
+    right: 10px;
+    top: 5px;
+    cursor: pointer;
+}
+
 #close-help, #close-excel {
     width: 15px;
     right: 10px;
@@ -380,8 +407,9 @@ td, tr {
     text-align: center;
 }
 td img {
-    width: 20px;
+    width: 25px;
     cursor: pointer;
+    margin: 4px;
 }
 thead{
     background-color: #004481;
@@ -526,9 +554,6 @@ tbody{
         padding: 10px;
         text-align: center;
     }
-    td img {
-        width: 10px;
-    }
     thead{
         background-color: #004481;
         color: #f2f2f2;
@@ -549,6 +574,10 @@ tbody{
         padding: 5px;
         text-align: center;
         width: 0px;
+    }
+    td img {
+        width: 10px;
+        margin: 0px;
     }
     thead{
         background-color: #004481;
