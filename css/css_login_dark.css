@@ -66,7 +66,9 @@ body {
     height: auto;
     margin-top: -40px;
     box-shadow: 0 0 .2em black;
-    border-radius: 10px;
+    border-top: 6px solid #004481 !important;
+    border: 1px solid #707070;
+    border-radius: 9px;
 }
 form {
     display: flex;
@@ -75,9 +77,8 @@ form {
     flex-direction: column;
     text-align: center;
     padding: 40px 30px;
-    background: black;
-    border-radius: 10px;
-    border-top: 6px solid #004481;
+    background: #16161d;
+    border-radius: 7px;
 }
 form img {
     width: 50px;
@@ -87,7 +88,7 @@ input {
     width: 100%;
     padding: 7px;
     border: 0px;
-    background: #161616;
+    background: #16161d;
     box-shadow: 0 0 .1em #707070;
     margin: 5px;
     border-radius: 2px;

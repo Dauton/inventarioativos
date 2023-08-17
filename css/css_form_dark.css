@@ -182,10 +182,11 @@ form {
     flex-direction: column;
     text-align: center;
     padding: 25px 30px;
-    background: black;
+    background: #16161d;
     box-shadow: 0 0 .4em black;
     border-radius: 10px;
-    border-top: 6px solid #004481;
+    border-top: 6px solid #004481 !important;
+    border: 1px solid #707070;
 }
 form img {
     width: 50px;
@@ -226,7 +227,7 @@ form h1 {
 .rodape {
     width: 100%;
     position: fixed;
-    background: #001324;
+    background: black;
     color: #9c9c9c;
     font-style: italic;
     bottom: 0px;

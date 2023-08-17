@@ -391,10 +391,12 @@ label font {
 }
 .excel-box label {
     display: inline-block;
+    border: 1px solid white !important;
 }
 .excel-box div select {
     background: white;
     border-radius: 0 0 5px 5px;
+    margin-bottom: 10px;
 }
 
 #close-informative {
