@@ -28,15 +28,16 @@ body {
     display: block;
 }
 *::-webkit-scrollbar {
-    background: #16161d;
+    background: transparent;
     width: 7px;
+    height: 7px;
 }
 *::-webkit-scrollbar-thumb {
     background: #004481;
     border-radius: 60px;
 }
 *::-webkit-scrollbar-button {
-    background: #16161d;
+    background: transparent;
 }
 .cab, .center {
     width: 100%;
@@ -418,18 +419,16 @@ table{
     margin-bottom: 20px;
 }
 td, tr {
-    border: 1px solid #707070;
+    border: 1px solid #16161d;
     padding: 10px;
     text-align: center;
-    background: black;   
-    color: white;
 }
 td img {
     width: 25px;
     cursor: pointer;
     margin: 4px;
 }
-thead td{
+thead{
     background-color: #004481;
     color: #f2f2f2;
     font-weight: bold;
@@ -437,7 +436,7 @@ thead td{
 }
 tbody{
     font-size: 12px;
-    background: white;
+    background: black;
 }
 
 @media screen and (max-width: 1300px) {
@@ -574,6 +573,7 @@ tbody{
         padding: 12px !important;
     }
     
+    
 }
 @media screen and (max-width: 620px) {
     td, tr {
@@ -586,14 +586,11 @@ tbody{
         margin: 0px;
     }
     thead{
-        background-color: #004481;
-        color: #f2f2f2;
         font-weight: bold;
         font-size: 7px;
     } 
     tbody{
         font-size: 5px;
-        background: white;
     }
     form {
         width: 90%;
