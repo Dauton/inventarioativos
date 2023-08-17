@@ -262,7 +262,7 @@ form h1 {
         left: -85%;
         width: 80%;
         height: 100%;
-        box-shadow: 0 0 .2em #707070;
+        box-shadow: 0 0 .2em black;
         border-radius: 0px;
         display: flex;
         flex-direction: column;
