@@ -192,7 +192,8 @@ form {
     display: flex;
     flex-wrap: wrap;
     align-items: baseline;
-    background: black;
+    background: #16161d;
+    box-shadow:  0 0 .4em black;
     border-top: 7px solid #004481;
 }
 label {
@@ -209,13 +210,16 @@ input, select {
     border-radius: 2px;
     color: black;
     color: #707070;
-    background: black;
+    background: #16161d;
 }
 input {
     padding: 3px 6px;
 }
 input:focus, select:focus {
     outline-color: #004481;
+}
+label font {
+    color: red;
 }
 #btn-cadastrar, #btn-reset {
     width: 13%;
@@ -540,6 +544,7 @@ tbody{
         justify-content: center;
         flex-direction: column;
         border-top: 0px;
+        background: black;
     }
     label {
         width: 100%;
@@ -560,7 +565,6 @@ tbody{
         border-top: 0px;
         border-radius: 0 0 5px 5px;
         border: none;
-        background: black;
         color: #9c9c9c;
     }
     input:last-child form{
