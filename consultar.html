@@ -156,6 +156,7 @@
             </footer>
         </section>
 
+        <div class="back-informative"></div>
         <div class="informative-box">
             <img id="close-informative" src="img/close-icon.png">
             <h3>Informação</h3>
@@ -182,6 +183,11 @@
             });
             $("#close-informative").click(function () {
                 $(".informative-box").fadeToggle(100);
+                $(".back-informative").fadeOut(100)
+            });
+            $(".back-informative").click(function () {
+                $(this).fadeToggle(100);
+                $(".informative-box").fadeOut(100);
             });
         </script>
     </main>
