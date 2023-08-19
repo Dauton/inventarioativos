@@ -409,7 +409,8 @@ form h1 {
     }
 
     .principal {
-        background: url(../img/background-dark.png);
+        background: url(../img/background-dark.png) no-repeat;
+        background-size: cover;
     }
 
     .cab,

@@ -727,7 +727,8 @@ tbody {
     }
 
     .principal {
-        background: url(../img/background-dark.png);
+        background: url(../img/background-dark.png) no-repeat;
+        background-size: cover;
     }
 
     .cab,
@@ -738,6 +739,7 @@ tbody {
 
     .cab,
     .center,
+    .left-column,
     form,
     label,
     select,
@@ -747,7 +749,6 @@ tbody {
     }
 
     .menu,
-    .left-column,
     .right-column,
     .center-column {
         background: #010409;
