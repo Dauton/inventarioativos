@@ -766,6 +766,9 @@ tbody {
         color: #707070;
         background: #0d1117;
     }
+    label font {
+        color: red;
+    }
 
     .help-box,
     .excel-box,
