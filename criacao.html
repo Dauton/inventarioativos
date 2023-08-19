@@ -74,7 +74,7 @@
                         <p>Cadastrar</p>
                     </div>
                     <div id="btn-buscar">
-                        <img src="img/buscar-user-form.png">
+                        <img src="img/buscar-user.png">
                         <p>Buscar</p>
                     </div>
 
@@ -211,21 +211,17 @@
             });
 
             $("#btn-buscar").click(function () {
-                $(this).css({ background: "#004481", color: "white", transition: ".4s all" });
-                $("#btn-buscar img").css({ filter: "invert(100%)", transition: ".4s all" });
+                $(this).css({ background: "#004481", transition: ".4s all" });
 
-                $("#btn-criacao").css({ background: "white", color: "black", transition: ".4s all" });
-                $("#btn-criacao img").css({ filter: "invert(100%)", transition: ".4s all" });
+                $("#btn-criacao").css({ background: "#0d1117", transition: ".4s all" });
 
                 $("#form-buscar").show(0);
                 $("#form-criacao").hide(0);
             });
             $("#btn-criacao").click(function () {
-                $(this).css({ background: "#004481", color: "white", transition: ".4s all" });
-                $("#btn-criacao img").css({ filter: "invert(0%)", transition: ".4s all" });
+                $(this).css({ background: "#004481", transition: ".4s all" });
 
-                $("#btn-buscar").css({ background: "white", color: "black", transition: ".4s all" });
-                $("#btn-buscar img").css({ filter: "invert(0%)", transition: ".4s all" });
+                $("#btn-buscar").css({ background: "#0d1117", transition: ".4s all" });
 
                 $("#form-criacao").show(0);
                 $("#form-buscar").hide(0);
