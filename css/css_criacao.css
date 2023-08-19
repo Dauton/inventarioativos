@@ -290,7 +290,7 @@ select:focus {
 
 button {
     width: 60%;
-    padding: 7px;
+    padding: 10px;
     margin: 20px 0;
     margin-top: 25px;
     border: 0px;
@@ -491,6 +491,7 @@ form h1 {
 
     .cab,
     .center,
+    .left-column,
     form,
     label,
     select,
@@ -499,7 +500,6 @@ form h1 {
     }
 
     .menu,
-    .left-column,
     .right-column,
     .center-column {
         background: #010409;
