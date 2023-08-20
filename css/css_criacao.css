@@ -278,6 +278,16 @@ select {
     border-radius: 2px;
     background: white;
 }
+input:focus,
+select:focus {
+    outline-style: solid;
+    outline-width: 3px;
+    outline-color: #004481;
+    border: none;
+    box-shadow: 0 0 .3em #004481;
+    transform: scale(1.05);
+    transition: .1s all;
+}
 
 select {
     padding: 7px;
@@ -496,6 +506,16 @@ form h1 {
     select,
     input {
         background: #0d1117;
+    }
+    input:focus,
+    select:focus {
+        box-shadow: 0 0 1em #004481;
+    }
+
+    button:hover,
+    .menu li a:hover {
+        background: #152838;
+        transition: .1s all;
     }
 
     .menu,

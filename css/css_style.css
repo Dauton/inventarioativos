@@ -244,6 +244,7 @@ select {
     border: 1px solid #707070;
     border-radius: 2px;
     background: #ffff;
+    transition: .1s all;
 }
 
 input {
@@ -252,7 +253,13 @@ input {
 
 input:focus,
 select:focus {
+    outline-style: solid;
+    outline-width: 3px;
     outline-color: #004481;
+    border: none;
+    box-shadow: 0 0 .3em #004481;
+    transform: scale(1.05);
+    transition: .1s all;
 }
 
 #btn-cadastrar,
@@ -352,6 +359,7 @@ select:focus {
 .excel-box,
 .informative-box {
     width: 320px;
+    height: fit-content;
     padding: 20px;
     background: white;
     box-shadow: 0 0 .5em black;
@@ -359,7 +367,9 @@ select:focus {
     border-top: 7px solid #004481;
     text-align: center;
     position: fixed;
-    top: 10%;
+    margin: auto;
+    top: 0;
+    bottom: 0;
     z-index: 3;
 }
 
@@ -429,6 +439,10 @@ select:focus {
     align-items: center;
     justify-content: center;
 }
+.excel-box button:hover {
+    background: #001324;
+    transition: .1s all;
+}
 
 .excel-box button img {
     width: 15px;
@@ -458,6 +472,15 @@ select:focus {
     margin: 0px;
     background: #152838;
     border-radius: 5px 5px 0 0;
+}
+.excel-box select:focus {
+    outline-style: inherit;
+    outline-width: inherit;
+    outline-color: inherit;
+    border: inherit;
+    box-shadow: none;
+    transform: none;
+    transition: 0s;
 }
 
 .excel-box label {
@@ -622,7 +645,7 @@ tbody {
 
     .center-column {
         margin-left: 0px;
-        padding: 10px 0px;
+        padding: 10px 20%;
         padding-bottom: 0px;
     }
 
@@ -660,6 +683,16 @@ tbody {
         background-color: #f2f2f2;
     }
 
+    input:focus,
+    select:focus {
+        outline-style: inherit;
+        outline-width: inherit;
+        outline-color: inherit;
+        border: inherit;
+        box-shadow: none;
+        transform: none;
+        transition: 0s;
+    }
     input:last-child form {
         margin-bottom: 20px;
     }
@@ -695,6 +728,10 @@ tbody {
 }
 
 @media screen and (max-width: 620px) {
+
+    .center-column {
+        padding: 10px 0px;
+    }
 
     td,
     tr {
@@ -787,6 +824,15 @@ tbody {
     label font {
         color: red;
     }
+    input:focus,
+    select:focus {
+        box-shadow: 0 0 1em #004481;
+    }
+    #btn-cadastrar:hover,
+    #btn-reset:hover,
+    .menu li a:hover {
+        background: #152838;
+    }
 
     .help-box,
     .excel-box,
@@ -808,7 +854,7 @@ tbody {
     }
 
     .excel-box select {
-        background: #010409 !important;
+        background: black !important;
         border: none;
     }
 
@@ -835,6 +881,10 @@ tbody {
         select {
             border: none;
             color: #9c9c9c;
+        }
+        input:focus,
+        select:focus {
+            box-shadow: none;
         }
         .left-column {
             background: #0d1117;
