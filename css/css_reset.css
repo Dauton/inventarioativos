@@ -410,6 +410,9 @@ form h1 {
 }
 
 @media (prefers-color-scheme: dark) {
+    body {
+        background: #0d1117;
+    }
     * {
         color: #f2f2f2;
     }
