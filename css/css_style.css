@@ -865,13 +865,6 @@ tbody {
     td {
         border: 1px solid #004481;
     }
-    thead {
-        border: 1px solid #004481;
-    }
-    thead tr td {
-        border: 1px solid black !important;
-    }
-
     .rodape {
         background: #0d1117;
     }
