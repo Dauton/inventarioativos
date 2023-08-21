@@ -518,7 +518,7 @@ table {
 
 td,
 tr {
-    border: 1px solid #004481;
+    border: 1px solid black;
     padding: 10px;
     text-align: center;
 }
@@ -534,7 +534,6 @@ thead {
     color: #f2f2f2;
     font-weight: bold;
     font-size: 15px;
-    border: 1px solid black;
 }
 
 tbody {
@@ -860,6 +859,11 @@ tbody {
     .excel-box select {
         background: black !important;
         border: none;
+    }
+
+    tr,
+    td {
+        border: 1px solid #004481;
     }
 
     .rodape {
