@@ -126,6 +126,7 @@ body {
 
 .left-column {
     max-width: 200px;
+    background-color: white;
 }
 
 .center-column {
@@ -222,7 +223,7 @@ body {
 .opt-criacao div {
     width: 50%;
     padding: 10px;
-    background: #0d1117;
+    background: #004481;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -231,12 +232,12 @@ body {
     color: white;
     cursor: pointer;
     border-radius: 0 4px 0 0;
+    border-bottom: 5px solid #004481;
 }
 
 #btn-criacao {
-    border: none;
-    background: #004481;
     border-radius: 4px 0 0 0;
+    border-bottom: 5px solid #e92e2b;
 }
 
 .opt-criacao img {
@@ -531,10 +532,6 @@ form h1 {
     .opt-criacao {
         border-top: 6px solid #004481;
         box-shadow: 0 0 .4em black;
-    }
-
-    #btn-criacao {
-        background: #004481;
     }
 
     #btn-menu,

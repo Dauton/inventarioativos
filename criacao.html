@@ -211,17 +211,15 @@
             });
 
             $("#btn-buscar").click(function () {
-                $(this).css({ background: "#004481", transition: ".4s all" });
-
-                $("#btn-criacao").css({ background: "#0d1117", transition: ".4s all" });
+                $(this).css({"border-bottom": "5px solid #e92e2b"})
+                $("#btn-criacao").css({"border-bottom": "5px solid #004481"})
 
                 $("#form-buscar").show(0);
                 $("#form-criacao").hide(0);
             });
             $("#btn-criacao").click(function () {
-                $(this).css({ background: "#004481", transition: ".4s all" });
-
-                $("#btn-buscar").css({ background: "#0d1117", transition: ".4s all" });
+                $(this).css({"border-bottom": "5px solid #e92e2b"})
+                $("#btn-buscar").css({"border-bottom": "5px solid #004481"})
 
                 $("#form-criacao").show(0);
                 $("#form-buscar").hide(0);
